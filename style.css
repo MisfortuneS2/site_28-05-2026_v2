@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    text-align: center;
+    font-size: 1.25rem;
+    font-family: "Roboto Condensed";
+    color: #ece4d4;
+    background-color:#6c443c;
+}
+
+h1{
+    color: #d6b398;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #ece4d4;
+    margin-right: 1.2rem;
+    padding: 10px;
+    }
+
+    a:hover{
+        cursor: pointer;
+        color: #ffcf99a2;
+    }
+
+    .disjuntor img{
+        width: 260px;
+        height: 450px;
+        border: 6px #ece4d4 solid;
+        background-color: #ece4d4;
+        border-radius: 24px;
+    }
+
+    .disjuntor_motor img{
+        width: 250px;
+        height: 380px;
+        border: 1px #ece4d4 solid;
+        background-color: #ece4d4;
+        border-radius: 24px;
+    }
+
+    .contactor img{
+        width: 300px;
+        height: 300px;
+        border: 1px #ece4d4 solid;
+        background-color: #ece4d4;
+        border-radius: 24px;
+    }
+
+    .botoeira img{
+        width: 250px;
+        height: 300px;
+        border: 1px #ece4d4 solid;
+        background-color: #ece4d4;
+        border-radius: 24px;
+    }
+
+    .chave img{
+        width: 300px;
+        height: 200px;
+        border: 1px #ece4d4 solid;
+        background-color: #ece4d4;
+        border-radius: 24px;
+    }
+
+        .multimetro_ana img{
+        width: 260px;
+        height: 380px;
+        border: 1px #ece4d4 solid;
+        background-color: #ece4d4;
+        border-radius: 24px;
+    }
+
+    .multimetro_digital img{
+        width: 260px;
+        height: 380px;
+        border: 1px #ece4d4 solid;
+        background-color: #ece4d4;
+        border-radius: 24px;
+    }
+
+    .as a{
+        font-size: medium;
+    }
+
+    hr{
+        background-color: #d69f93;
+        border: none;
+        height: 2px;
+    }
+
+    .lab img{
+        width: 260px;
+        height: 500px;
+        border: 1px #ece4d4 solid;
+        background-color: #ece4d4;
+    }

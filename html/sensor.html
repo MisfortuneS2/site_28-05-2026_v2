@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Sensor fim de curso</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <b>
+            <a href="./disjuntor.html">Disjuntor</a>
+            <a href="./disjuntor_motor.html">Disjuntor motor</a>
+            <a href="./contactor.html">Contactor</a>
+            <a href="./botoeira.html">Botoeira e chave manopla</a>
+            <a href="./sensor.html">Sensor fim de curso</a> <br>
+            <a href="./motor_eletrico.html">Motor elétrico de indução trifásico</a>
+            <a href="./multimetro.html">Multímetro</a>
+            <a href="./rele_temp.html">Relé temporizador</a>
+            <a href="./rele_term.html">Relé térmico</a>
+            <a href="./laboratorio.html">Laboratório</a>
+            <a href="./clp.html">CLP</a>
+            </b>
+        </nav>
+    </header>
+
+    <main>
+        <H1>  Sensor fim de curso </H1>
+
+<H2>O que é uma Chave Fim de Curso?</H2>
+<p>
+A chave fim de curso, também conhecida como sensor fim de curso, interruptor mecânico ou microswitchk é um dispositivo eletromecânico projetado para detectar a presença, a passagem ou a posição limite de um objeto em movimento.
+<br>
+Em termos simples: ela funciona como um "botão de parada ou acionamento automático" que avisa o sistema quando uma peça móvel chegou exatamente onde deveria chegar.
+</p>
+<H2>Como Ela Funciona?</H2>
+<p>
+O funcionamento é puramente mecânico e elétrico:
+✦<i>Impacto Físico</i>: Uma peça móvel (como o portão da sua casa, o carrinho de uma impressora 3D ou um braço robótico) encosta no atuador da chave.<br>
+
+
+✦<i>Comutação de Contatos</i>: Esse toque físico exerce uma força que altera o estado dos contatos elétricos internos da chave:<br>
+
+
+ ⋆O contato Normalmente Aberto (NA) se fecha, permitindo a passagem de corrente.<br>
+
+
+ ⋆O contato Normalmente Fechado (NF) se abre, cortando o fluxo elétrico.<br>
+
+
+✦<i>Ação no Sistema</i>: O circuito acionado pode desligar o motor de imediato (para evitar travamentos ou queima), reverter a direção do movimento ou enviar um sinal elétrico para uma placa controladora (como Arduino, CLP ou CNC).<br>
+
+
+</p>
+<H2>Principais Componentes e Tipos de Atuadores</H2>
+<p>
+A chave é composta por Caixa (de plástico para uso leve/Maker ou metálica para uso industrial pesado), Contatos Elétricos e o Atuador (a parte que recebe o impacto). Os atuadores mudam conforme a necessidade do projeto:<br>
+
+✦<i>Pino ou Pistão Reto</i>: Usado quando a peça móvel vai direto contra o fim de curso, em distâncias curtas.<br>
+✦<i>Pino com Rolete</i>: Possui uma pequena rodinha na ponta. É ideal para quando a peça passa deslizando lateralmente sobre ele.<br>
+✦<i>Haste ou Alavanca com Rolete</i>: Permite acionar a chave mesmo que o objeto venha de direções ligeiramente variadas ou em distâncias maiores.<br>
+✦<i>Haste Flexível (Mola)</i>: Curva-se em qualquer direção, muito útil quando o impacto é irregular ou multidirecional.<br>
+✦<i>Atuador Separado (Chave de Segurança)</i>: Usado em portas e grades de proteção industrial; o circuito só funciona se a trava estiver totalmente encaixada.<br>
+<p>
+<H2>Vantagens e Principais Aplicações</H2>
+<p>
+Por ser um componente simples, de baixo custo e extremamente durável (suportando de 1 a 10 milhões de acionamentos), o fim de curso é amplamente utilizado em:<br>
+✦<i>Portões Eletrônicos</i>: Para desligar o motor exatamente quando o portão abre ou fecha totalmente.<br>
+✦<i>Projetos Maker e Robótica</i>: Em impressoras 3D e máquinas CNC para determinar o "ponto zero" (home) dos eixos X, Y e Z.<br>
+✦<i>Indústria e Automação</i>: Em pontes rolantes, esteiras rolantes, elevadores e máquinas operatrizes para evitar colisões e padronizar o fluxo de produção.<br>
+✦<i>Segurança</i>: Em portas de proteção de máquinas pesadas, impedindo que funcionem com a tampa aberta.<br>
+</p>
+
+<div class="sensor"> <img src="../img/sensor_fdc.png" alt=""></div>
+
+    </main>
+
+    <footer>
+        By Ana luiza &copy; &trade;
+    </footer>
+</body>
+</html>

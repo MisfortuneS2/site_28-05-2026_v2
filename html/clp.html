@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Laboratório</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <b>
+            <a href="./disjuntor.html">Disjuntor</a>
+            <a href="./disjuntor_motor.html">Disjuntor motor</a>
+            <a href="./contactor.html">Contactor</a>
+            <a href="./botoeira.html">Botoeira e chave manopla</a>
+            <a href="./sensor.html">Sensor fim de curso</a> <br>
+            <a href="./motor_eletrico.html">Motor elétrico de indução trifásico</a>
+            <a href="./multimetro.html">Multímetro</a>
+            <a href="./rele_temp.html">Relé temporizador</a>
+            <a href="./rele_term.html">Relé térmico</a>
+            <a href="./laboratorio.html">Laboratório</a>
+            <a href="./clp.html">CLP</a>
+            </b>
+        </nav>
+    </header>
+
+    <main>
+        <h1>CLP</h1>
+
+<H2>O que é um CLP?</H2>
+<p>
+O CLP (Controlador Lógico Programável) ou PLC (Programmable Logic Controller) é o verdadeiro "cérebro" da automação industrial. Trata-se de um computador projetado especificamente para operar em ambientes fabris severos (com poeira, calor e ruídos elétricos).<br>
+Sua função principal é gerenciar processos automatizados: ele lê as informações enviadas pelos sensores do processo, processa esses dados de acordo com uma lógica programada e envia ordens diretas para os atuadores elétricos da máquina.
+</p>
+<H2>Como Ele Funciona? (O Ciclo de Varredura)</H2>
+<p>
+Diferente do seu computador pessoal, o CLP funciona executando continuamente uma rotina chamada Ciclo de Varredura (Scan), que se repete em milissegundos:<br>
+✦<i>Leitura das Entradas</i>: Identifica o estado atual dos dispositivos de campo (ex: se um botão foi apertado ou se uma chave fim de curso detectou uma peça).<br>
+✦<i>Execução da Lógica</i>: Roda o programa armazenado na memória para decidir o que deve ser feito com base nas regras que o projetista programou.<br>
+✦<i>Atualização das Saídas</i>: Manda o comando elétrico para ligar ou desligar os equipamentos do circuito (ex: acionar um contator ou abrir uma válvula).<br>
+✦<i>Autodiagnóstico</i>: Verifica se há erros na memória, falhas de comunicação ou problemas nos módulos antes de recomeçar o ciclo.<br>
+</p>
+<H2>Estrutura Principal de um CLP</H2>
+<p>
+Um sistema de CLP é dividido nas seguintes partes fundamentais:
+✦<i>CPU (Unidade Central de Processamento)</i>: É o processador que armazena a lógica e faz os cálculos e decisões.<br>
+✦<i>Módulos de Entrada</i>: Recebem os sinais dos sensores, chaves fim de curso, termopares e botoeiras (sinais digitais ou analógicos).<br>
+✦<i>Módulos de Saída</i>: Enviam a tensão necessária para acionar bobinas de contatores, relés, lâmpadas, inversores e solenoides.<br>
+✦<i>Fonte de Alimentação</i>: Transforma a tensão da rede no nível adequado para alimentar a CPU e os circuitos eletrônicos internos (normalmente 24Vdc).<br>
+✦<i>Interface de Programação/Comunicação</i>: Entradas que permitem conectar o CLP ao computador (para enviar o programa) ou a redes industriais e telas IHM (Interface Homem-Máquina).<br>
+
+</p>
+<H2>Linguagens de Programação</H2>
+<p>
+Para programar um CLP, utiliza-se a norma internacional IEC 61131-3. A linguagem mais comum e famosa na elétrica é o Diagrama Ladder (Linguagem em Escada), que simula o desenho dos antigos diagramas elétricos de comandos com contatos e bobinas. Isso facilita muito o aprendizado para eletricistas e técnicos.
+</p>
+<H2>Principais Vantagens e Onde É Aplicado</H2>
+<p>
+Antes do CLP, os painéis elétricos precisavam de centenas de relés e temporizadores interligados por fios. O CLP revolucionou a indústria porque trouxe:<br>
+✦<i>Economia de Espaço e Fiação</i>: Substitui painéis gigantescos por um único equipamento compacto.<br>
+✦<i>Flexibilidade</i>: Para alterar a lógica de uma máquina, não é preciso refazer fiações — basta alterar poucas linhas do programa no computador.<br>
+✦<i>Fácil Manutenção</i>: LEDs nos módulos mostram na hora qual entrada ou saída está ativada, facilitando a identificação de defeitos no campo.<br>
+</p>
+<p>
+<i>Aplicações: Linhas de montagem automotivas, envazadoras de bebidas, tratamento de água, sistemas de embalagem, elevadores e controle de malhas industriais.
+
+    <div class="clp"> <img src="../img/clp_fv.png" alt=""></div>
+        <h2>Circuito feitos com o CLP</h2>
+        <p> Foi feito um sistema de semáforo utilizando o CLP.</p>
+        <div class="video">
+    <video controls>
+        <source src="../vd/sinaleira.mp4" type="video/mp4">
+    </video>
+</div>
+        <h2>Configurando o CLP</h2>
+        <div class="video">
+            <video controls>
+                <source src="../vd/config.mp4" type="video/mp4">
+                <p></p>
+            </video>
+        </div>
+    </main>
+    
+    <footer>
+        By Ana luiza &copy; &trade;
+    </footer>
+</body>
+</html>
