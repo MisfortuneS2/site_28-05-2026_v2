@@ -81,19 +81,49 @@ a{
         border-radius: 24px;
     }
 
+    .rele_term{
+        background-color: rgb(134, 150, 135);
+    border-radius: 8px;
+    width: 340px;
+    padding: 10px 12px 8px;
+    box-sizing: border-box;
+    }
+
+    .rele_temp img{
+        width: 260px;
+        height: 380px;
+        border: 1px #ece4d4 solid;
+        background-color: #ece4d4;
+        border-radius: 24px;
+    }
+
+    .sensor img{
+        width: 260px;
+        height: 380px;
+        border: 1px #ece4d4 solid;
+        background-color: #ece4d4;
+        border-radius: 24px;
+    }
+
     .as a{
         font-size: medium;
+    }
+
+    .circuito1 img{
+        width: 300px;
+        height: 300px;
+        border: 1px #ece4d4 solid;
+        background-color: #ece4d4;
+        border-radius: 24px;
+    }
+
+    .video{
+        width: 560px;
+        height: 315px;
     }
 
     hr{
         background-color: #d69f93;
         border: none;
         height: 2px;
-    }
-
-    .lab img{
-        width: 260px;
-        height: 500px;
-        border: 1px #ece4d4 solid;
-        background-color: #ece4d4;
     }
