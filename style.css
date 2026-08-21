@@ -81,8 +81,8 @@ a{
         border-radius: 24px;
     }
 
-    .rele_term{
-        background-color: rgb(134, 150, 135);
+    .rele_term img{
+        background-color: #ece4d4;
     border-radius: 8px;
     width: 340px;
     padding: 10px 12px 8px;
@@ -91,7 +91,7 @@ a{
 
     .rele_temp img{
         width: 260px;
-        height: 380px;
+        height: 450px;
         border: 1px #ece4d4 solid;
         background-color: #ece4d4;
         border-radius: 24px;
@@ -104,11 +104,16 @@ a{
         background-color: #ece4d4;
         border-radius: 24px;
     }
-
-    .as a{
-        font-size: medium;
+    
+    .clp img{
+        width: 350px;
+        height: 200px;
+        border: 1px #ece4d4 solid;
+        background-color: #ece4d4;
+        border-radius: 24px;
     }
 
+    
     .circuito1 img{
         width: 300px;
         height: 300px;
@@ -116,10 +121,22 @@ a{
         background-color: #ece4d4;
         border-radius: 24px;
     }
-
+    
     .video video{
         width: 560px;
         height: 315px;
+    }
+
+    .motor img{
+        width: 350px;
+        height: 280px;
+        border: 1px #ece4d4 solid;
+        background-color: #ece4d4;
+        border-radius: 24px;
+    }
+    
+    .as a{
+        font-size: medium;
     }
 
     hr{
